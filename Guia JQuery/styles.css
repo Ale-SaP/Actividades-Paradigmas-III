@@ -1,0 +1,141 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    background: #0077cc;
+    color: white;
+    padding: 10px 0;
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Secciones */
+section {
+    background: #ffffff;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+}
+
+.titulo-act {
+    font-size: 1.5rem;
+    color: #0077cc;
+    margin-bottom: 10px;
+}
+
+/* Estilo de tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+    text-align: center;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    background-color: #0077cc;
+    color: white;
+    font-weight: bold;
+}
+
+/* Listas */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Botones */
+input[type="button"] {
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #0077cc;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+input[type="button"]:hover {
+    background-color: #005fa3;
+}
+
+/* Noticia */
+.noticia {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Enlaces */
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Divs enmarcados */
+.enmarcado {
+    border: 2px solid #0077cc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Estilo de recuadros */
+#recuadro, #recuadro2 {
+    width: 200px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 100px;
+}
+
+/* Inputs de texto */
+input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 90%;
+    max-width: 300px;
+}
+
+/*Act. 10*/
+.titulo
+{
+  font-family:arial;
+  font-weight: normal;
+  background-color: #6495ed;
+  color:#ff0;
+}
+
+.cuerpo {
+  border: 1px solid #000;
+  padding: .5em;
+  background-color:#ed8f63;
+  width:100px;
+  text-align:center;
+}
